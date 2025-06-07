@@ -1,9 +1,9 @@
 # MLOps-Pipeline-DVC-S3
-This will cover the end to end understanding for creating a Machine Learning Pipeline and experimenting around it using DVC for experiment tracking and Data versioning using AWS S3.
+This is for understanding of creating a Machine Learning Pipeline and experimenting around it using DVC for experiment tracking and Data versioning using AWS S3.
 
 # 📦 MLOps Pipeline with DVC & S3 - Day 3
 
-This project showcases an end-to-end Machine Learning Pipeline built using MLOps best practices. It includes automation, modular components, experiment tracking, and data versioning with AWS S3 and DVC.
+This repository showcases an end-to-end Machine Learning Pipeline built using MLOps best practices. It includes automation, modular components, experiment tracking, and data versioning with AWS S3 and DVC.
 
 ---
 
