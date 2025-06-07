@@ -7,7 +7,6 @@ This repository showcases an end-to-end Machine Learning Pipeline built using ML
 
 ---
 
-
 ### 🧾 Logging Concepts
 * Logging is handled with two handlers:
 
@@ -26,7 +25,7 @@ This repository showcases an end-to-end Machine Learning Pipeline built using ML
 
 * CRITICAL: Severe errors, system failure
 
-```
+---
 
 ## 🔁 ML Pipeline Components
 
