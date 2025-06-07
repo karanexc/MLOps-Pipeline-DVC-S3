@@ -5,3 +5,4 @@ nltk
 wordcloud
 scikit-learn
 xgboost
+dvc
