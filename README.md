@@ -7,6 +7,27 @@ This repository showcases an end-to-end Machine Learning Pipeline built using ML
 
 ---
 
+
+### 🧾 Logging Concepts
+* Logging is handled with two handlers:
+
+- Console Handler: Logs printed in terminal
+
+- File Handler: Logs saved in /logs/
+
+#### Log Levels:
+* DEBUG: Internal events for debugging
+
+* INFO: General information (e.g., task completed)
+
+* WARNING: Unexpected behavior but not critical
+
+* ERROR: Operation failed
+
+* CRITICAL: Severe errors, system failure
+
+```
+
 ## 🔁 ML Pipeline Components
 
 - **Data Ingestion**
@@ -57,25 +78,6 @@ dvc remote add -d myremote s3://mybucket/mlops
 dvc push
 ```
 
-### 🧾 Logging Concepts
-* Logging is handled with two handlers:
-
-- Console Handler: Logs printed in terminal
-
-- File Handler: Logs saved in /logs/
-
-#### Log Levels:
-* DEBUG: Internal events for debugging
-
-* INFO: General information (e.g., task completed)
-
-* WARNING: Unexpected behavior but not critical
-
-* ERROR: Operation failed
-
-* CRITICAL: Severe errors, system failure
-
-```
 logger.debug("Loading config file...")
 logger.info("Data ingestion completed")
 logger.error("File not found")
